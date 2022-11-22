@@ -2,7 +2,7 @@
 Project created with NodeJS, Fastify and Typescript
 
 ## How to run it
-1. In your terminal, run `git clone https://github.com/Akkihiko/books-directory.git`
+1. In your terminal, run ```git clone https://github.com/Akkihiko/books.git```
 2. After this, install the dependencies with `npm install`
 3. Then, just run `npm run dev` and enjoy!
 
