@@ -1,17 +1,15 @@
 {
-  "name": "server",
+  "name": "books-server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts"
   },
   "prisma": {
-    "seed": "tsx reset prisma/seed.ts"
+    "seed": "tsx prisma/seed.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Akkihiko",
+  "license": "MIT",
   "devDependencies": {
     "prisma": "^4.5.0",
     "tsx": "^3.11.0",
